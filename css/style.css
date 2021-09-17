@@ -1,3 +1,5 @@
+/***** GLOBAL *****/
+
 *{
   margin: 0;
   padding: 0;
@@ -19,6 +21,13 @@ body{
   margin: 0 auto;
 }
 
+.layout{
+  width: 100%; 
+  height: 100%; 
+  background-color:rgba(0, 0, 0, 0.1); 
+}
+
+/***** HEADER *****/
 
 header, .top-main{
   margin-bottom: 20px;
@@ -59,7 +68,7 @@ header img{
   color: brown;
 }
 
-
+/***** MAIN *****/
 
 main .top-main{
   min-height: 600px;
@@ -87,7 +96,6 @@ main .top-main{
   font-size: 20px;
 }
 
-
 .middle-main{
   padding-bottom: 20px;
   margin-bottom: 10px;
@@ -113,9 +121,7 @@ section{
   margin: 0 1%;
 }
 
-footer{
-  height: 50px;
-}
+
 
 .top-middle h1{
   font-weight: 900;
@@ -148,6 +154,7 @@ aside p, section p{
   color: #acacac;
 }
 
+/* image main */
 .img-aside{
   background-image: url("../img/img-1.jpg");
 }
@@ -160,7 +167,10 @@ aside p, section p{
   background-image: url("../img/img-3.jpg");
 }
 
-footer div{
+/***** FOOTER *****/
+
+footer{
+  height: 50px;
   text-align: center;
 }
 
@@ -169,11 +179,7 @@ footer div span{
   color: red;
 }
 
-.layout{
-  width: 100%; 
-  height: 100%; 
-  background-color:rgba(0, 0, 0, 0.1); 
-}
+
 
 
 
