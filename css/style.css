@@ -71,7 +71,7 @@ header img{
 /***** MAIN *****/
 
 main .top-main{
-  min-height: 600px;
+  min-height: 400px;
   padding-left: 50px;
   background-color: #feebe4;
   background-image: url("../img/banner.jpg");
@@ -85,7 +85,7 @@ main .top-main{
 .top-main .text-jambotron{
   color: white;
   width: 40%;
-  padding-top: 20%;
+  padding-top: 18%;
 }
 
 .text-jambotron p:first-child{
